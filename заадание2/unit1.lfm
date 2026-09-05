@@ -1,0 +1,59 @@
+object Form1: TForm1
+  Left = 315
+  Height = 370
+  Top = 161
+  Width = 465
+  Caption = 'Form1'
+  ClientHeight = 370
+  ClientWidth = 465
+  DesignTimePPI = 120
+  LCLVersion = '4.6.0.0'
+  object Button1: TButton
+    Left = 344
+    Height = 31
+    Top = 216
+    Width = 94
+    Caption = 'Обменять'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Label1: TLabel
+    Left = 74
+    Height = 20
+    Top = 104
+    Width = 98
+    Caption = 'Число первое'
+  end
+  object Label2: TLabel
+    Left = 272
+    Height = 20
+    Top = 104
+    Width = 100
+    Caption = 'Число второе '
+  end
+  object Edit1: TEdit
+    Left = 72
+    Height = 28
+    Top = 136
+    Width = 100
+    TabOrder = 1
+  end
+  object Edit2: TEdit
+    Left = 264
+    Height = 28
+    Top = 136
+    Width = 100
+    TabOrder = 2
+  end
+  object BitBtn1: TBitBtn
+    Left = 56
+    Height = 38
+    Top = 288
+    Width = 94
+    Caption = 'Конец'
+    Kind = bkAbort
+    ModalResult = 3
+    TabOrder = 3
+    OnClick = BitBtn1Click
+  end
+end

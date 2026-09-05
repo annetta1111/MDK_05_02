@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="procentee.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="21"/>
+      </Unit>
+      <Unit>
+        <Filename Value="labohka.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="lololo"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="144"/>
+        <CursorPos X="26" Y="157"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\лаба 5\project1.ico"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="18">
+      <Position>
+        <Filename Value="labohka.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="labohka.pas"/>
+        <Caret Line="41" Column="3" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="labohka.pas"/>
+        <Caret Line="42" Column="3" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="labohka.pas"/>
+        <Caret Line="43" Column="3" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="labohka.pas"/>
+        <Caret Line="44" Column="3" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="labohka.pas"/>
+        <Caret Line="45" Column="3" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="labohka.pas"/>
+        <Caret Line="46" Column="3" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="labohka.pas"/>
+        <Caret Line="47" Column="3" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="labohka.pas"/>
+        <Caret Line="49" Column="3" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="labohka.pas"/>
+        <Caret Line="107" Column="5"/>
+      </Position>
+      <Position>
+        <Filename Value="labohka.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="labohka.pas"/>
+        <Caret Line="126" Column="49" TopLine="111"/>
+      </Position>
+      <Position>
+        <Filename Value="labohka.pas"/>
+        <Caret Line="12" Column="26"/>
+      </Position>
+      <Position>
+        <Filename Value="labohka.pas"/>
+        <Caret Line="17" Column="20"/>
+      </Position>
+      <Position>
+        <Filename Value="labohka.pas"/>
+        <Caret Line="184" Column="5" TopLine="156"/>
+      </Position>
+      <Position>
+        <Filename Value="labohka.pas"/>
+        <Caret Line="63" Column="6" TopLine="48"/>
+      </Position>
+      <Position>
+        <Filename Value="labohka.pas"/>
+        <Caret Line="61" Column="19" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="labohka.pas"/>
+        <Caret Line="28" Column="23" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="labohka.pas"/>
+        <Caret Line="141" Column="71" TopLine="127"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

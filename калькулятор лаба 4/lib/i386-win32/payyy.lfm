@@ -1,0 +1,405 @@
+object Form1: TForm1
+  Left = 416
+  Height = 481
+  Top = 217
+  Width = 389
+  BorderStyle = bsSingle
+  Caption = 'калькулятор'
+  ClientHeight = 481
+  ClientWidth = 389
+  Color = 12493018
+  DesignTimePPI = 120
+  Font.CharSet = ANSI_CHARSET
+  Font.Height = -48
+  Font.Name = 'Times New Roman'
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
+  Font.Style = [fsBold]
+  Position = poScreenCenter
+  LCLVersion = '4.6.0.0'
+  OnCreate = FormCreate
+  object edtResult: TEdit
+    Left = 8
+    Height = 63
+    Top = 24
+    Width = 374
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object ce: TButton
+    Left = 152
+    Height = 63
+    Top = 112
+    Width = 70
+    Caption = 'ce'
+    Color = 10124223
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -33
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+    OnClick = ceClick
+  end
+  object cbros: TButton
+    Left = 232
+    Height = 63
+    Top = 112
+    Width = 70
+    Caption = 'c'
+    Color = 10124223
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -33
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+    OnClick = cbrosClick
+  end
+  object kop: TButton
+    Left = 312
+    Height = 63
+    Top = 112
+    Width = 70
+    Caption = 'kop'
+    Color = 10124223
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -33
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+    OnClick = kopClick
+  end
+  object stepen: TButton
+    Left = 312
+    Height = 64
+    Top = 184
+    Width = 70
+    Caption = 'x^2'
+    Color = 10124223
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -33
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+    OnClick = stepenClick
+  end
+  object lala: TButton
+    Left = 312
+    Height = 63
+    Top = 256
+    Width = 70
+    Caption = '1/x'
+    Color = 10124223
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -33
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 5
+    OnClick = lalaClick
+  end
+  object rovno: TButton
+    Left = 312
+    Height = 135
+    Top = 328
+    Width = 70
+    Caption = '='
+    Color = clMaroon
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -33
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 6
+    OnClick = rovnoClick
+  end
+  object strelka: TButton
+    Left = 8
+    Height = 63
+    Top = 112
+    Width = 136
+    Caption = '<-'
+    Color = 10124223
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -33
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 7
+    OnClick = strelkaClick
+  end
+  object plus: TButton
+    Left = 232
+    Height = 63
+    Top = 400
+    Width = 70
+    Caption = '+'
+    Color = 10124223
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -33
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 8
+    OnClick = plusClick
+  end
+  object minys: TButton
+    Left = 232
+    Height = 63
+    Top = 328
+    Width = 70
+    Caption = '-'
+    Color = 10124223
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -33
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 9
+    OnClick = minysClick
+  end
+  object ymnoj: TButton
+    Left = 232
+    Height = 63
+    Top = 256
+    Width = 70
+    Caption = '*'
+    Color = 10124223
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -33
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 10
+    OnClick = ymnojClick
+  end
+  object del: TButton
+    Left = 232
+    Height = 63
+    Top = 184
+    Width = 70
+    Caption = '/'
+    Color = 10124223
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -33
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 11
+    OnClick = delClick
+  end
+  object night: TButton
+    Left = 152
+    Height = 63
+    Top = 184
+    Width = 70
+    Caption = '9'
+    Color = 10124223
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -33
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 12
+    OnClick = nightClick
+  end
+  object six: TButton
+    Left = 152
+    Height = 63
+    Top = 256
+    Width = 70
+    Caption = '6'
+    Color = 10124223
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -33
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 13
+    OnClick = sixClick
+  end
+  object tri: TButton
+    Left = 152
+    Height = 63
+    Top = 328
+    Width = 70
+    Caption = '3'
+    Color = 10124223
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -33
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 14
+    OnClick = triClick
+  end
+  object zapyt: TButton
+    Left = 152
+    Height = 63
+    Top = 400
+    Width = 70
+    Caption = ','
+    Color = 10124223
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -33
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 15
+    OnClick = zapytClick
+  end
+  object eght: TButton
+    Left = 80
+    Height = 63
+    Top = 185
+    Width = 70
+    Caption = '8'
+    Color = 10124223
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -33
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 16
+    OnClick = eghtClick
+  end
+  object seven: TButton
+    Left = 8
+    Height = 63
+    Top = 185
+    Width = 70
+    Caption = '7'
+    Color = 10124223
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -33
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 17
+    OnClick = sevenClick
+  end
+  object five: TButton
+    Left = 80
+    Height = 63
+    Top = 256
+    Width = 70
+    Caption = '5'
+    Color = 10124223
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -33
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 18
+    OnClick = fiveClick
+  end
+  object dwa: TButton
+    Left = 80
+    Height = 63
+    Top = 328
+    Width = 70
+    Caption = '2'
+    Color = 10124223
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -33
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 19
+    OnClick = dwaClick
+  end
+  object fo: TButton
+    Left = 8
+    Height = 63
+    Top = 256
+    Width = 70
+    Caption = '4'
+    Color = 10124223
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -33
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 20
+    OnClick = foClick
+  end
+  object odin: TButton
+    Left = 8
+    Height = 63
+    Top = 328
+    Width = 70
+    Caption = '1'
+    Color = 10124223
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -33
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 21
+    OnClick = odinClick
+  end
+  object nol: TButton
+    Left = 8
+    Height = 63
+    Top = 400
+    Width = 136
+    Caption = '0'
+    Color = 10124223
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -33
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 22
+    OnClick = nolClick
+  end
+end

@@ -1,0 +1,146 @@
+object zam: Tzam
+  Left = 314
+  Height = 526
+  Top = 251
+  Width = 518
+  Caption = 'Заметки'
+  ClientHeight = 526
+  ClientWidth = 518
+  DesignTimePPI = 120
+  LCLVersion = '4.6.0.0'
+  OnCreate = FormCreate
+  object mmText: TMemo
+    Left = 270
+    Height = 316
+    Top = 70
+    Width = 228
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -25
+    Font.Name = '@Malgun Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 0
+  end
+  object cmbCat: TComboBox
+    Left = 170
+    Height = 43
+    Top = 10
+    Width = 240
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -25
+    Font.Name = '@Malgun Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ItemHeight = 35
+    ParentFont = False
+    TabOrder = 1
+    OnClick = cmbCatChange
+  end
+  object lstTitle: TListBox
+    Left = 20
+    Height = 318
+    Top = 70
+    Width = 225
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -25
+    Font.Name = '@Malgun Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ItemHeight = 0
+    ParentFont = False
+    TabOrder = 2
+    OnClick = lstTitleClick
+  end
+  object lbl1: TLabel
+    Left = 10
+    Height = 35
+    Top = 10
+    Width = 133
+    Caption = 'Категория:'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -25
+    Font.Name = '@Malgun Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object btnAdd: TButton
+    Left = 20
+    Height = 51
+    Top = 400
+    Width = 140
+    Caption = 'Добавить'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -25
+    Font.Name = '@Malgun Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+    OnClick = btnAddClick
+  end
+  object btnDel: TButton
+    Left = 180
+    Height = 51
+    Top = 400
+    Width = 140
+    Caption = 'Удалить'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -25
+    Font.Name = '@Malgun Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+    OnClick = btnDelClick
+  end
+  object btnSave: TButton
+    Left = 340
+    Height = 51
+    Top = 400
+    Width = 140
+    Caption = 'Сохранить'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -25
+    Font.Name = '@Malgun Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 5
+    OnClick = btnSaveClick
+  end
+  object lbl2: TLabel
+    Left = 10
+    Height = 35
+    Top = 470
+    Width = 226
+    Caption = 'Новый заголовок:'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -25
+    Font.Name = '@Malgun Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 258
+    Height = 43
+    Top = 470
+    Width = 240
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -25
+    Font.Name = '@Malgun Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 6
+  end
+end

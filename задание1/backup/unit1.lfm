@@ -1,0 +1,43 @@
+object Form1: TForm1
+  Left = 315
+  Height = 380
+  Top = 161
+  Width = 527
+  Caption = 'Form1'
+  ClientHeight = 380
+  ClientWidth = 527
+  DesignTimePPI = 120
+  LCLVersion = '4.6.0.0'
+  object Label1: TLabel
+    Left = 152
+    Height = 20
+    Top = 112
+    Width = 258
+    Caption = 'Догадайтесь, кто сделал этот проект?'
+    OnClick = Label1Click
+  end
+  object Button1: TButton
+    Left = 192
+    Height = 31
+    Top = 160
+    Width = 166
+    Caption = 'Щелкните здесь!'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Label2: TLabel
+    Left = 248
+    Height = 1
+    Top = 200
+    Width = 1
+  end
+  object Button2: TButton
+    Left = 368
+    Height = 31
+    Top = 304
+    Width = 94
+    Caption = 'Выход'
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+end

@@ -1,0 +1,62 @@
+object lol: Tlol
+  Left = 315
+  Height = 325
+  Top = 161
+  Width = 570
+  Caption = 'Показать выбранную дату'
+  ClientHeight = 325
+  ClientWidth = 570
+  DesignTimePPI = 120
+  LCLVersion = '4.6.0.0'
+  object Calendar1: TCalendar
+    Left = 10
+    Height = 205
+    Top = 10
+    Width = 190
+    DateTime = 46133
+    TabOrder = 0
+    OnChange = Calendar1Change
+  end
+  object DateEdit1: TDateEdit
+    Left = 10
+    Height = 28
+    Top = 224
+    Width = 129
+    CalendarDisplaySettings = [dsShowHeadings, dsShowDayNames]
+    DefaultToday = True
+    DateOrder = doDMY
+    ButtonWidth = 29
+    NumGlyphs = 1
+    MaxLength = 10
+    TabOrder = 1
+    Text = '  .  .    '
+    OnChange = DateEdit1Change
+  end
+  object lol: TButton
+    Left = 208
+    Height = 31
+    Top = 216
+    Width = 206
+    Caption = 'Показать выбранную дату'
+    TabOrder = 2
+    OnClick = lolClick
+  end
+  object lel: TButton
+    Left = 208
+    Height = 31
+    Top = 264
+    Width = 206
+    Caption = 'Форматный вывод'
+    TabOrder = 3
+    OnClick = lelClick
+  end
+  object lal: TButton
+    Left = 272
+    Height = 31
+    Top = 96
+    Width = 216
+    Caption = 'Функции даты и времени'
+    TabOrder = 4
+    OnClick = lalClick
+  end
+end

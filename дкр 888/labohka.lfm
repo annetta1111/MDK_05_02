@@ -1,0 +1,156 @@
+object lololo: Tlololo
+  Left = 300
+  Height = 889
+  Top = 171
+  Width = 742
+  BorderStyle = bsDialog
+  Caption = 'калькулятор процентов'
+  ClientHeight = 889
+  ClientWidth = 742
+  Color = 15194342
+  DesignTimePPI = 120
+  Font.CharSet = RUSSIAN_CHARSET
+  Font.Color = clBlack
+  Font.Height = -23
+  Font.Name = 'Times New Roman'
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
+  Font.Style = [fsBold, fsItalic]
+  Position = poDesktopCenter
+  LCLVersion = '4.6.0.0'
+  OnCreate = FormCreate
+  object suuum: TLabel
+    Left = 56
+    Height = 26
+    Top = 32
+    Width = 118
+    Caption = 'сумма (Р): '
+  end
+  object procent: TLabel
+    Left = 240
+    Height = 26
+    Top = 32
+    Width = 216
+    Caption = 'годовая ставка (%): '
+  end
+  object kollet: TLabel
+    Left = 520
+    Height = 26
+    Top = 32
+    Width = 174
+    Caption = 'количесвто лет:'
+  end
+  object sum: TEdit
+    Left = 38
+    Height = 34
+    Top = 88
+    Width = 136
+    TabOrder = 0
+  end
+  object stavka: TEdit
+    Left = 272
+    Height = 34
+    Top = 88
+    Width = 136
+    TabOrder = 1
+  end
+  object let: TEdit
+    Left = 528
+    Height = 34
+    Top = 88
+    Width = 156
+    TabOrder = 2
+  end
+  object tip: TLabel
+    Left = 280
+    Height = 31
+    Top = 200
+    Width = 178
+    Caption = 'тип процента'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -27
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+  end
+  object prprocent: TLabel
+    Left = 64
+    Height = 23
+    Top = 256
+    Width = 177
+    Caption = 'простые проценты'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -20
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+    OnClick = prprocentClick
+  end
+  object clprocent: TLabel
+    Left = 480
+    Height = 23
+    Top = 256
+    Width = 180
+    Caption = 'сложные проценты'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -20
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+  end
+  object prost: TCheckBox
+    Left = 135
+    Height = 20
+    Top = 292
+    Width = 21
+    TabOrder = 3
+    OnClick = prostClick
+  end
+  object clojn: TCheckBox
+    Left = 553
+    Height = 20
+    Top = 292
+    Width = 21
+    TabOrder = 4
+    OnClick = clojnClick
+  end
+  object ras: TButton
+    Left = 280
+    Height = 56
+    Top = 336
+    Width = 176
+    Caption = 'РАСЧИТАТЬ'
+    TabOrder = 5
+    OnClick = rasClick
+  end
+  object res: TLabel
+    Left = 96
+    Height = 26
+    Top = 464
+    Width = 120
+    Caption = 'результат:'
+  end
+  object result: TEdit
+    Left = 304
+    Height = 34
+    Top = 456
+    Width = 248
+    TabOrder = 6
+  end
+  object rashetiki: TMemo
+    Left = 16
+    Height = 328
+    Top = 528
+    Width = 712
+    TabOrder = 7
+  end
+end
